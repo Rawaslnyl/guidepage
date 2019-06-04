@@ -1,0 +1,41 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.wrap > .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -9.1em;
+  margin-top: -52px;
+}
+.wrap > .content > a {
+  color: #fff;
+  display: block;
+  border-radius: 20px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.wrap > img {
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 7em;
+}
+.wrap > .content > .qycopy {
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 1.2em;
+}
+.wrap > .content > .qycopy > img {
+  /* width: 8em; */
+  width: 100%;
+  display: block;
+}
