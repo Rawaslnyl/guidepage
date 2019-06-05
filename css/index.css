@@ -14,7 +14,7 @@
   top: 50%;
   left: 50%;
   margin-left: -9.1em;
-  margin-top: -52px;
+  margin-top: -9.4em;
 }
 .wrap > .content > a,
 .wrap > .content > span {
@@ -33,11 +33,14 @@
 
   user-select: none;
 }
-
-.wrap > img {
+.wrap > .content > .wrap-img {
   width: 35%;
   margin: 0 auto;
-  padding-top: 7em;
+}
+.wrap > .content > img {
+  width: 100%;
+  /* padding-top: 7em; */
+  box-sizing: border-box;
 }
 .wrap > .content > .qycopy {
   width: 35%;
