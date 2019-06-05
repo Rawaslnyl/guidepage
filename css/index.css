@@ -16,7 +16,8 @@
   margin-left: -9.1em;
   margin-top: -52px;
 }
-.wrap > .content > a {
+.wrap > .content > a,
+.wrap > .content > span {
   color: #fff;
   display: block;
   border-radius: 20px;
@@ -24,7 +25,15 @@
   text-align: center;
   padding: 10px;
   margin-bottom: 10px;
+  -webkit-user-select: none;
+
+  -moz-user-select: none;
+
+  -ms-user-select: none;
+
+  user-select: none;
 }
+
 .wrap > img {
   width: 35%;
   margin: 0 auto;
